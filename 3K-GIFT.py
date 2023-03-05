@@ -72,7 +72,6 @@ for xd in range(10000):
     f=random.randrange(1, 99)
     uaku2=(f'{a}{b}{c}{d}{e}{f}')
     ugen.append(uaku2)
-os.system('xdg-open https://github.com/MUMIT-404-CYBER')
 logo = ("""
 \033[1;91m    _____   ___   ______  _____________   ________
 \033[1;92m   /  _/ | / / | / / __ \/ ____/ ____/ | / /_  __/
@@ -147,7 +146,7 @@ def gml():
     user=[]
     os.system('clear')
     print(logo)
-    kode = input(' [?] Target fast name : ')
+    kode = input(' [?] Target first name : ')
     os.system('clear')
     print(logo)
     kodex = input(' [?] Target last name :  ')
